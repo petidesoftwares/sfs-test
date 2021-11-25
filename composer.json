@@ -1,0 +1,13 @@
+{
+    "name": "dell/sfs-test",
+    "description": "SFS test app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "petidesoftwares",
+            "email": "petideenterprise@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
