@@ -29,7 +29,7 @@ if(isset($_POST['submit'])){
                         <option value="Lenovo">Lenovo</option>
                         <option value="HP">HP</option>
                         <option value="Dell">Dell</option>
-                    </select><span><?php echo $brand. " -> ".$brandPrice ?> </span><br>
+                    </select><br><span><?php echo $brand. "=".$brandPrice ?> </span><br>
                     <input type="submit" name="submit" value="Submit">
                 </form>
             </div>
@@ -52,6 +52,9 @@ if(isset($_POST['submit'])){
             <div class="content-pane">
                 <h3>Total price of all the computers = <?php echo $totalPrices ?></h3>
             </div>
+        </div>
+        <div id="footer">
+            <span>Powered by Petidesofwares <br>Copyright &copy<?php echo date('Y')?></span>
         </div>
     </body>
 </html>
